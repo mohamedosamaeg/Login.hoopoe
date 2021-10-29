@@ -19,10 +19,14 @@ namespace Login.hoopoe
                 {
                     Console.WriteLine("WELCOME :)" + UserName);
                 }
+                else
+                { 
+                    Console.WriteLine("Password are wrong"); 
+                }
             }
             else
             {
-                Console.WriteLine("Username or Password are wrong");
+                Console.WriteLine("Username are wrong");
 
 
             }
