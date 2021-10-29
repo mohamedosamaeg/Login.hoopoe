@@ -13,9 +13,12 @@ namespace Login.hoopoe
             UserName = Console.ReadLine();
             Console.WriteLine("Password :");
             Password = Console.ReadLine();
-            if (UserName == "mohamed" || UserName == "ahmed" || UserName == "reham" || UserName == "mona" && Password == "hoopoe2021")
+            if (UserName == "mohamed" || UserName == "ahmed" || UserName == "reham" || UserName == "mona" )
             {
-                Console.WriteLine("WELCOME :)" + UserName);
+                if (Password == "hoopoe2021")
+                {
+                    Console.WriteLine("WELCOME :)" + UserName);
+                }
             }
             else
             {
