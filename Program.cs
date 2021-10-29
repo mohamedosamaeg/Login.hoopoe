@@ -19,7 +19,7 @@ namespace Login.hoopoe
             }
             else
             {
-                Console.WriteLine("Username or password are wrong");
+                Console.WriteLine("Username or Password are wrong");
 
 
             }
